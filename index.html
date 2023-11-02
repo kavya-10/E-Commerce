@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Product Design</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css" />
+      <!--favicon-->
+      <link rel="shortcut icon" href="./images/cart.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="cartCount">
+    <a href="#"  id="cart-icon" class="fas fa-shopping-cart cart-animation"></a>
+    <span id="cart-item-count">0</span>
+    </div>
+  <section class="products">
+    <h2>Our Products</h2>
+    <div class="all-products">
+      <div class="product">
+        <img src="./images/airpods 2nd gen.webp" class="product-img" />
+        <div class="product-info">
+          <h4 class="product-title">AirPod 2nd Gen</h4>
+          <p class="product-price">129</p>
+          <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <img src="./images/apple watch.jpg" class="product-img" />
+      <div class="product-info">
+        <h4 class="product-title">Apple Watch</h4>
+        <p class="product-price">299</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+    </div>
+    </div>
+    <div class="product">
+      <img src="./images/iphone14.jpg" class="product-img" />
+      <div class="product-info">
+        <h4 class="product-title">iPhone 14</h4>
+        <p class="product-price">999</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+    </div>
+    </div>
+    <div class="product">
+      <img src="./images/ipan pro.jpg" class="product-img" />
+      <div class="product-info">
+        <h4 class="product-title">iPan Pro</h4>
+        <p class="product-price">629</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- addtocart -->
+  <div class="cart">
+    <button onclick="Removeall()">Removeall</button>
+    <h2>cartItems</h2>
+    <ul class="cart_items">
+
+    </ul>
+    <div id="cart-total">
+
+    </div>
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>
